@@ -23,10 +23,10 @@ let t=d/v
   return t
 }
 exports.time(){
-let (Vf)
-  return
+let (Vf-Vi)/a
+  return t
 }
-exports.acceleration(){
-let
-  return
+exports.acceleration(Vf,Vi,t){
+let a= =(Vf-Vi)/t
+  return a;
 }

@@ -5,10 +5,10 @@ exports.kineticEnergy = function(m,v){};
 let ke=0.5*m*v*v
 return ke
 
-exports.Mass = function(m,v){};
+exports.vass = function(m,v){};
 let m=2*k*e/v*v
 return m
 
-exports. = function(m,v){};
-let 
-return
+exports.velocity = function(ke,m){};
+let v=sqrt((2*ke)/(m))
+  return v

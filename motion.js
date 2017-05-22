@@ -6,27 +6,30 @@ let d = v*t;
   return d;
 };
 
-exports.distance = function(a,v,t){
+exports.distance_a = function(a,v,t){
 let d = 0.5*a*t*t+v*t;
   return d;
 }
-exports.velocity(d,t){
+
+exports.velocity = function(d,t){
 let v=d/t;
   return v;
 }
-exports.velocity(d,a,t){
+
+exports.velocity_a = function(d,a,t){
 let v=(d-0.5*a*a)/t;
   return v;
 }
-exports.time(d,v){
+exports.time = function(d,v){
 let t=d/v
-  return t
+  return t;
 }
-exports.time(){
-let (Vf-Vi)/a
-  return t
+
+exports.time_a = function(d,v,a){
+let t = v/a
+  return t;
 }
-exports.acceleration(Vf,Vi,t){
-let a= =(Vf-Vi)/t
+exports.acceleration = function(Vf,Vi,t){
+let a = (Vf-Vi)/t
   return a;
 }
